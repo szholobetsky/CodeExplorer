@@ -1,0 +1,6 @@
+1	Stas Test	https://github.com		szholobetsky	CodeExplorer	CodeExplorer	1	Jira	GitHiub
+
+
+INSERT INTO public.project
+(project_id, description, giturl, jiraurl, "owner", project_name, repository_name, status, task_tracking_system, versioning_systems)
+VALUES(1, 'Stas Test', 'https://github.com', NULL, 'szholobetsky', 'CodeExplorer', 'CodeExplorer', 4, 'Jira', 'GitHiub');
